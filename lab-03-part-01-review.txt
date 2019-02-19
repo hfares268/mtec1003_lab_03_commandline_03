@@ -67,6 +67,7 @@ This command should have a *flag* to specify the output file.  MAKE SURE TO NAME
 
 Write the command(s) that you used to download this file - as well as its output - below:
 ----------
+curl -o mtec1003-lab-03.tar.gz http://entertainmenttechnology.github.io/Wilson-MTEC1003/labs/03/mtec1003-lab-03.tar.gz 
 
 
 
