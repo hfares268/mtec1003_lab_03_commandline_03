@@ -36,7 +36,7 @@ $ touch foo.txt
 $ ls
 Copy and paste the output below.
 ----------
-
+foo.txt
 
 
 ==========
@@ -52,7 +52,9 @@ $ touch bar.txt
 
 Copy and paste the output below.
 ----------
-
+total 0
+-rw-r--r--  1 Hfares168  staff  0 Feb 24 21:11 bar.txt
+-rw-r--r--  1 Hfares168  staff  0 Feb 24 21:11 foo.txt
 
 
 ==========
