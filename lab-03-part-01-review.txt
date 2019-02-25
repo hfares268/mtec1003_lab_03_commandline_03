@@ -15,7 +15,7 @@ This lab will review downloading and uncompressing files, and it will get us set
 
 Write the command that you used to do this below:
 ----------
-~
+cd ~
 
 
 ==========
@@ -44,7 +44,7 @@ Library			foo
 ==========
 4. If there are directories or files in your home directory that have the word mtec1003 in them, list them below (otherwise skip this step):
 ----------
-
+mtec1003-lab-03.tar.gz
 
 
 ==========
