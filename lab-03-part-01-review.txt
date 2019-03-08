@@ -83,7 +83,7 @@ curl -o mtec1003-lab-03.tar.gz http://entertainmenttechnology.github.io/Wilson-M
 
 Write the command(s) that you used to do this - as well as its output - below:
 ----------
-
+tar -xvf mtec1003-lab-03.tar.gz
 
 
 ==========
@@ -98,7 +98,8 @@ Otherwise...
 
 Write the command(s) that you used to do this - as well as its output - below:
 ----------
-
+ls
+mtec1003-lab-03
 
 
 ==========
@@ -106,6 +107,8 @@ Write the command(s) that you used to do this - as well as its output - below:
 
 Write the command(s) that you used to determine this - as well as its output - below:
 ----------
+ls
+books	logs	web
 
 
 
@@ -114,6 +117,33 @@ Write the command(s) that you used to determine this - as well as its output - b
 
 Write the command(s) (including going home) that you used to do this below:
 ----------
+cd Downloads/
+Alis-Air-6:Downloads Hfares168$ ls
+Arduino.lnk
+Creative_Cloud_Installer.dmg
+ENT1100 - Scenery Sp2019.ppt
+FortiNAC Dissolvable Agent (1).dmg
+Illustrator_Installer.dmg
+MacKeeper.3.21.4.pkg
+OneCast.app
+googlechrome.dmg
+mtec1003-lab-03
+mtec1003-lab-03.tar.gz
+Alis-Air-6:Downloads Hfares168$ cd mtec1003-lab-03
+Alis-Air-6:mtec1003-lab-03 Hfares168$ ls
+books	logs	web
+Alis-Air-6:mtec1003-lab-03 Hfares168$ cd ~
+Alis-Air-6:~ Hfares168$ cd books
+-bash: cd: books: No such file or directory
+Alis-Air-6:~ Hfares168$ cd Downloads/
+Alis-Air-6:Downloads Hfares168$ cd mtec1003-lab-03
+Alis-Air-6:mtec1003-lab-03 Hfares168$ cd books
+Alis-Air-6:books Hfares168$ ls
+other		science-fiction
+Alis-Air-6:books Hfares168$ cd science-fiction/
+Alis-Air-6:science-fiction Hfares168$ ls
+pg84.txt	pg86.txt
+Alis-Air-6:science-fiction Hfares168$ 
 
 
 
@@ -122,7 +152,7 @@ Write the command(s) (including going home) that you used to do this below:
 
 Write the command(s) that you used to do this - as well as its output - below:
 ----------
-
+books	logs	web
 
 
 ==========
@@ -130,21 +160,26 @@ Write the command(s) that you used to do this - as well as its output - below:
 
 Write the command(s) that you used to do this below:
 ----------
+cd /Users/Hfares168/Downloads/mtec1003-lab-03/books/science-fiction/
 
 ==========
 13. Immediately change back to the mtec1003-lab-03 folder with a single command using a *relative* path.
 
 Write the command(s) that you used to do this below:
 ----------
-
+cd ../../
 ==========
 14. Find out what the most recently modified directory is in mtec1003 (there are only 3 to choose from)?  How would you find this out?  Hint: perhaps using something to show the modified date... and sort it by time.
 
 Write the command(s) that you used to do this below:
 ----------
+drwxr-xr-x@ 129 Hfares168  staff  4128 Mar  8 18:21 logs
 
 ==========
 15. Create a compressed archive of the logs folder - that is... take the contents of logs and create a single archive (.tar), and compress (.gz)
 
 Write the command(s) that you used to do this below:
 ----------
+ gzip logs.tar
+Alis-Air-6:mtec1003-lab-03 Hfares168$ ls
+books		logs		logs.tar.gz	web
