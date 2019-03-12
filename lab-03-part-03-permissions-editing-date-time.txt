@@ -79,14 +79,14 @@ $ ./copy_to_backup.sh
 What command did you use to try to execute the file?  What happens?
 ----------
 
-
+./copy_to_backup.sh
 
 ==========
 8. Open the file with nano
 
 What command did you use to do this?
 ----------
-nano
+nano copy_to_backup.sh
 
 
 ==========
@@ -101,12 +101,16 @@ Don't forget the first line of your shell script! It should begin with #!/bin/ba
 Write out the code in your file below...
 ----------
 
+#!/bin/bash
+mkdir backup
+cp *.txt
+echo "Im done backing up"
 
 
 ==========
 10. Create a directory in your home called test
 ----------
-
+mkdir test
 
 
 ==========
@@ -122,7 +126,7 @@ touch
 
 What commands did you use to do this?
 ----------
-
+mv cop
 
 
 ==========
