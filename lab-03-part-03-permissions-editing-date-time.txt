@@ -135,7 +135,7 @@ mv cop
 What commands did you use to do this?
 ----------
 
-
+./
 
 ==========
 14. Verify that a backup folder was created in your test directory... with copies of the files present.
